@@ -154,18 +154,3 @@ java -cp bin cliente.Main
 [HTML] Documento finalizado e salvo como relatorio.html
 ```
 
----
-
-## 7. Checklist de aderência à atividade
-
-- [x] Classe abstrata `Relatorio` com `#exportador : FormatoExportacao` e `gerarRelatorio()`
-- [x] `RelatorioVendas` e `RelatorioRH` herdando de `Relatorio`
-- [x] Interface `FormatoExportacao` com as três assinaturas exigidas
-- [x] `ExportadorPDF`, `ExportadorExcel`, `ExportadorHTML` realizando a interface
-- [x] Agregação correta entre `Relatorio` e `FormatoExportacao`
-- [x] Separação física em `/src/abstracao`, `/src/implementacao`, `/src/cliente`
-- [x] Nenhum `new` de exportador concreto dentro das classes de relatório
-- [x] Injeção via construtor
-- [x] Troca dinâmica de formato em tempo de execução, no mesmo objeto
-- [x] Script cliente demonstrando as 3 rotinas exigidas
-- [ ] Vídeo de defesa técnica gravado e link colado no topo deste README
