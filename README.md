@@ -15,7 +15,7 @@ subclasses e respeitar o **Princípio Aberto/Fechado (OCP)** do SOLID.
 
 ## Vídeo de defesa técnica
 
-📺 Link do vídeo (3–5 min): **`<< COLOCAR O LINK AQUI >>`**
+📺 Link do vídeo: **`(https://canva.link/48wqwhp808keury)`**
 
 ---
 
